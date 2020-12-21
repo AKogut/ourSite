@@ -1,6 +1,14 @@
 .App {
   text-align: center;
 }
+li{
+  list-style-type: none;
+}
+.title{
+  width: 100px;
+  height: 100px;
+  background-color: #ff0000;
+}
 
 
 .App-header {

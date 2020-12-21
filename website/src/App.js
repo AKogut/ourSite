@@ -1,10 +1,25 @@
 
 import './App.css';
 
-function App() {
+function header() {
   return (
-        <h1>Hello world!</h1>
+      <div>
+          <ul>
+              <li>Home</li>
+              <li>Work</li>
+              <li>About</li>
+              <li>Contact</li>
+          </ul>
+      </div>
      );
+  homePage();
 }
 
-export default App;
+
+function homePage(){
+    return(
+        <div class='title'>Hi it's home</div>
+    );
+}
+
+export default header;
